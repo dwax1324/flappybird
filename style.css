@@ -1,0 +1,42 @@
+body{
+    background-color: gray       ; 
+    overflow: hidden;
+}
+
+#box{
+width:100vw;
+height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#scoreView{
+    position: relative;
+    left:170px;
+    top:85px;
+    font-size: 16px;
+    color:white;
+    
+
+}
+#scoreView2{
+    position: relative;
+    left:170px;
+    top:60px;
+    font-size: 16px;
+    color:white;
+    
+
+}
+#container{
+    width: 400px;
+    height: 817px;
+    border:2px solid dimgrey;
+    box-shadow: dimgrey    1px 1px 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
